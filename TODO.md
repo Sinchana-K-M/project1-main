@@ -7,10 +7,5 @@
 5. [x] Fix casing mismatch for Checkout import
 6. [x] Run app and verify
 
-# Additional Fixes
 
-1. [x] Downgrade `react-router-dom` from v7 to v6.x to fix Jest module resolution error
-2. [x] Fix `App.test.js` — replace default CRA test with proper ShopEasy test (wrap in providers)
-3. [x] Fix duplicate key warning in `Cart.js` — track quantity in CartContext instead of duplicate items
-4. [x] Run tests and verify all pass
 
